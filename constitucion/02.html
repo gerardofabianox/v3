@@ -441,21 +441,7 @@ for (var i = 1; i < divCount; i++) {
 <script type="text/javascript">
 	if (extLoaded) { idrLoad(); } else { intLoaded = true; }
 </script>
-<a href="../index.html" title="Volver al Inicio"><img border="0" width="50" height="51" src="../images/volver.png" style="position: fixed; bottom: 205px; right: 0px;" /></a><a href="javascript:history.back()" title="Atras"><img border="0" width="50" height="51" src="../images/atras.png" style="position: fixed; bottom: 150px; right: 0px;" /></a><a onclick="showConfirm(); return false;" href="#" ><img border="0" width="50" height="51" src="../images/salir.png" style="position: fixed; bottom: 95px; right: 0px;" /></a><script language="javascript">
-
-     function showConfirm() {
-           navigator.notification.confirm(
-              '¿Seguro que quiere cerrar la aplicación?', // mensaje a mostrar
-              exitFromApp, // callback a invocar cuando el botón es presionado
-              'Salir', // titulo de la ventana
-              'Cancelar' // etiquetas de los botones
-           );
-     }
-
-     function exitFromApp(buttonIndex) {
-            if (buttonIndex==2){ navigator.app.exitApp();}
-     }
-
-</script>
+<a href="../index.html" title="Volver al Inicio"><img border="0" width="50" height="51" src="../images/volver.png" style="position: fixed; bottom: 205px; right: 0px;" /></a>
+<a href="javascript:history.back()" title="Atras"><img border="0" width="50" height="51" src="../images/atras.png" style="position: fixed; bottom: 150px; right: 0px;" /></a>
 </body>
 </html>
