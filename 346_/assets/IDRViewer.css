@@ -161,11 +161,8 @@ body {
 .thumbnail img{
     max-width: 160px;
 }
-.currentPageThumbnail {
-    background-color: #777777;
-}
-.thumbnail:hover {
-    background-color: #CCCCCC;
+.currentPageThumbnail, .thumbnail:hover {
+    background-color: #888888;
 }
 #outlinePanel ul {
     list-style-type: none;
